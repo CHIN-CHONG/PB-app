@@ -1,0 +1,20 @@
+#img.animate {
+	animation: pulse 0.5s;
+}
+
+@keyframes pulse {
+	0% {
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.7);
+        opacity: 0.7;
+	}
+
+    70% {
+        box-shadow: 0 0 0 10px rgba(0, 0, 0, 0);
+        opacity: 0.7;
+	}
+
+	100% {
+        box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+        opacity: 1;
+	}
+}

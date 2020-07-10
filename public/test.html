@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pulse.css">
+</head>
+<body>
+    <img class="pulse_img" id="img" src="C:\Users\KIRILL\Desktop\PB_app-master\src\img\robot.png"/>
+
+    <script>
+        img.onclick = function() {
+            let stop_anim = () => {
+                img.classList.remove('animate');
+            }
+            img.classList.add('animate');
+            setTimeout(stop_anim, 500);
+        };
+
+        
+      </script>
+</body>
+</html>
